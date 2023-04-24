@@ -34,9 +34,6 @@ int print_rev(va_list ap, params_t *params)
 	char *str = va_arg(ap, char *);
 	(void)params;
 
-	switch ((int)(!*str))
-			case 1:
-				*str = NULL_STRING;
 	if (str)
 	{
 
